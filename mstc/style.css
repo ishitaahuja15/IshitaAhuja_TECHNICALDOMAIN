@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    padding: 0;
+    background : url(user-solid.svg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-image: url('pexels-carlos-camino-2208902.jpg');
+
+
+}
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-page
+{
+    height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/bg-2.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul 
+{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 70px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+nav ul li button
+{
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+nav ul li button:hover
+{
+    color: aqua;
+}
+nav ul li a:hover
+{
+    color: aqua;
+}
+a
+{
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 28px;
+}
+
+.loginbox{
+    width: 320px;
+    height: 400px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing:border-box;
+    padding: 50px 30px;
+
+}
+
+
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size:  22px; 
+    color: #fff;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[ type = "text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background:transparent ;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.loginbox input[type =" submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type ="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+
+}
+
+
+.signup {
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing:border-box;
+    padding: 50px 30px;
+
+}
+
+
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size:  22px; 
+}
+
+.signup p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+
+.signup input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.signup input[ type = "text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background:transparent ;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+
+}
+
+.signup input[ type = "text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background:transparent ;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+}
+.signup input[type =" submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.signup input[type ="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+
+}
+
+.signup a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+
+}
+.signup a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+
+}
+
+
